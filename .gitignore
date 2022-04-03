@@ -1,5 +1,5 @@
-# gcc coverage testing tool files
+# Mac Local files Ignore
 
-*.gcno
-*.gcda
-*.gcov
+.DS_Store
+.idea
+*.iml
