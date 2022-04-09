@@ -1,5 +1,6 @@
 echo
 
+
 echo "Installing Kubernetes CLI"
 brew install kubernetes-cli@1.22
 
