@@ -29,5 +29,3 @@ source ${MY_DIR}/scripts/common/kubernetes.sh
 source ${MY_DIR}/scripts/common/py.sh
 source ${MY_DIR}/scripts/common/aws.sh
 source ${MY_DIR}/scripts/common/hashicorp.sh
-
-
