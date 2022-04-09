@@ -1,5 +1,4 @@
 # Mac Local files Ignore
-
 .DS_Store
 .idea
 *.iml
