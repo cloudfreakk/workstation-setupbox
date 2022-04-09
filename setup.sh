@@ -14,18 +14,17 @@ clear
 MY_DIR="$(dirname "$0")"
 
 # Note: Homebrew needs to be set up first
-source ${MY_DIR}/scripts/prerequisites/homebrew.sh
+source ${MY_DIR}/box/prerequisites/homebrew.sh
 
 # Install everything else
-source ${MY_DIR}/scripts/common/oh-my-zsh.sh
-source ${MY_DIR}/scripts/common/editors.sh
-source ${MY_DIR}/scripts/common/git.sh
-source ${MY_DIR}/scripts/common/git-aliases.sh
-source ${MY_DIR}/scripts/common/applications-common.sh
-source ${MY_DIR}/scripts/common/developer-utilities.sh
-source ${MY_DIR}/scripts/common/cicd.sh
-source ${MY_DIR}/scripts/common/java.sh
-source ${MY_DIR}/scripts/common/kubernetes.sh
-source ${MY_DIR}/scripts/common/py.sh
-source ${MY_DIR}/scripts/common/aws.sh
-source ${MY_DIR}/scripts/common/hashicorp.sh
+source ${MY_DIR}/box/scripts/editors.sh
+source ${MY_DIR}/box/scripts/git.sh
+source ${MY_DIR}/box/scripts/git-aliases.sh
+source ${MY_DIR}/box/scripts/applications-common.sh
+source ${MY_DIR}/box/scripts/developer-utilities.sh
+source ${MY_DIR}/box/scripts/cicd.sh
+source ${MY_DIR}/box/scripts/java.sh
+source ${MY_DIR}/box/scripts/kubernetes.sh
+source ${MY_DIR}/box/scripts/py.sh
+source ${MY_DIR}/box/scripts/aws.sh
+source ${MY_DIR}/box/scripts/hashicorp.sh
