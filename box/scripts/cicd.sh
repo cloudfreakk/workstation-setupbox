@@ -7,3 +7,4 @@ echo "Installing CD Tooling"
 
 #Installing Jenkins
 brew install jenkins-lts
+brew install argocd
