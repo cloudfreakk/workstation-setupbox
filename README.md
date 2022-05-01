@@ -4,7 +4,7 @@ Open up Terminal.app and run the following command:
 
 mkdir -p ~/workspace &&
 cd ~/workspace &&
-git clone https://github.com/pivotal/workstation-setup.git &&
+git clone https://github.com/stratocloud/workstation-setupbox.git &&
 cd workstation-setupbox
 
 
